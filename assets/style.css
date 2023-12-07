@@ -3,7 +3,7 @@
 body {
   padding: 2rem;
   font-family: "Indie Flower", cursive;
-
+  background-color: #c1dec3;
   background-size: cover;
   margin-left: auto;
   margin-right: auto;
@@ -16,9 +16,16 @@ h1 {
 
 div {
   box-sizing: content-box;
-  border: 1px solid black;
-  width: 70%;
+
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+}
+.cells {
+  width: fit-content;
+  padding: 1.5em;
+  display: inline-block;
+  border: 1px solid black;
+  font-size: 1.5em;
+  background-color: beige;
 }

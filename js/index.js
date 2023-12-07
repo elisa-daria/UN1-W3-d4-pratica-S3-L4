@@ -17,7 +17,7 @@ const createNumberCell = function () {
 
   for (let i = 1; i <= 99; i++) {
     const tombolaCell = document.createElement("div");
-
+    tombolaCell.classList.add("cells");
     const cellValue = document.createElement("h3");
     cellValue.innerText = i;
     tombolaCell.appendChild(cellValue);
