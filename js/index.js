@@ -10,7 +10,7 @@ const generateNumber = button.addEventListener("click", function () {
 const createNumberCell = function () {
   const tombolaDiv = document.getElementById("tombola-container");
 
-  for (let i = 0; i <= 99; i++) {
+  for (let i = 1; i <= 99; i++) {
     const tombolaCell = document.createElement("div");
 
     const cellValue = document.createElement("h3");
