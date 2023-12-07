@@ -5,6 +5,11 @@ button.addEventListener("submit", function (e) {
 const generateNumber = button.addEventListener("click", function () {
   let randomicNumber = Math.ceil(Math.random() * 99);
   console.log(randomicNumber);
+  const spanNumber = document.getElementById("generatedNumber");
+  const numberGenerated = document.createElement("span");
+  numberGenerated.innerHTML = randomicNumber;
+
+  spanNumber.appendChild(numberGenerated);
 });
 
 const createNumberCell = function () {
