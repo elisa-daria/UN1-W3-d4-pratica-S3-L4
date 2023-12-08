@@ -29,3 +29,27 @@ div {
   font-size: 1.5em;
   background-color: beige;
 }
+.cells.selected {
+  color: red;
+}
+button {
+  border-width: 1.8em;
+  border-style: solid;
+  border-color: azure;
+  font-family: "Indie Flower", cursive;
+  font-size: 1.3em;
+  /* appearance: none; */
+  background-color: azure;
+}
+#generatedNumber {
+  border: 1px solid black;
+  font-size: 2em;
+  padding: 20px;
+  box-sizing: content-box;
+  background-color: #ff000091;
+}
+.fas {
+  color: #df8826;
+  font-size: 3em;
+  padding: 30px;
+}
